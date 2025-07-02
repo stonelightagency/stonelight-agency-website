@@ -1,0 +1,167 @@
+/* ======================================
+    Official Contract Stylesheet
+    Version: 4.2
+    Description: Formal, print-friendly styling for the
+                 Keys by Caleb performance agreement, with
+                 detailed package descriptions.
+    ======================================
+*/
+
+:root {
+    --font-serif: 'Tinos', 'Times New Roman', serif;
+    --font-sans: 'Lato', 'Arial', sans-serif;
+    --color-text: #222222;
+    --color-bg: #ffffff;
+    --color-bg-alt: #f5f5f5;
+}
+
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg-alt);
+    margin: 0;
+    padding: 2rem;
+    font-size: 11pt;
+}
+
+.contract-container {
+    max-width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    padding: 1in;
+    background-color: var(--color-bg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+.main-title {
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 16pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.preamble {
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.section-heading {
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2rem 0 1rem;
+    letter-spacing: 0.5px;
+}
+
+.article-title {
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 2.5rem 0 1.5rem;
+    line-height: 1.4;
+}
+
+p {
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+strong {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+.package-selection {
+    margin: 1.5rem 0;
+}
+.package-selection > p {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.package-details {
+    list-style-type: '- ';
+    padding-left: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.package-details li {
+    font-size: 10pt;
+    color: #444;
+}
+
+
+.closing-statement {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.signature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5in;
+    margin-top: 3rem;
+}
+
+.signature-block .party-title {
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-family: var(--font-serif);
+}
+
+.signature-line-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+.signature-line-container .signature-field {
+    border-bottom: 1px solid #000;
+    height: 1.5rem;
+}
+
+.signature-line-container label {
+    font-size: 9pt;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+
+/* Print-Specific Styles */
+@media print {
+    @page {
+        size: letter;
+        margin: 1in;
+    }
+    body {
+        background-color: var(--color-bg);
+        padding: 0;
+    }
+    .contract-container {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border: none;
+        max-width: 100%;
+    }
+}

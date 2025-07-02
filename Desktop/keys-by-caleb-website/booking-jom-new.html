@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Just One Moment | Keys by Caleb</title> 
+    <meta name="description" content="Book the Just One Moment package ($495, up to 1 hour) with Keys by Caleb for your wedding ceremony or a highlight moment in Riverside, CA. Secure online booking.">
+    <meta name="keywords" content="book pianist, wedding pianist booking, event music booking, live piano booking, Riverside pianist, Keys by Caleb, Just One Moment package, multi-step booking">
+    <meta name="author" content="Keys by Caleb">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="css/pinterest-style-adapted.css">
+    <link rel="stylesheet" href="css/booking-style-new.css"> 
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+
+    <script>
+        tailwind.config = { /* ... Tailwind Config ... */
+             theme: { extend: { fontFamily: { 'playfair': ['"Playfair Display"', 'serif'], 'inter': ['"Inter"', 'sans-serif'] }, colors: { 'brand-primary': '#B08D57', 'brand-secondary': '#C4A484', 'brand-accent': '#8D6E4B', 'brand-text-dark': '#4A3F35', 'brand-text-light': '#F8F4F0', 'brand-bg-light': '#F8F4F0', 'brand-bg-card-opaque': '#FCFBF9','brand-error': '#dc2626', 'brand-error-light': '#fee2e2', 'brand-success': '#059669', 'brand-success-light': '#d1fae5', 'brand-header-bg': '#2E2822', 'brand-footer-bg': '#2E2822', 'brand-border': '#D9D1C7', 'brand-border-light': 'rgba(176, 141, 87, 0.18)', } } }
+        }
+    </script>
+     <style>
+        .contract-container {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            color: #4A3F35;
+            background-color: #F8F4F0;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #D9D1C7;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 1.5rem;
+        }
+        .contract-container h3, .contract-container h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 600;
+            color: #8D6E4B;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        .contract-container h3 { font-size: 1.25rem; text-align: center; }
+        .contract-container h4 { font-size: 1rem; }
+        .contract-container p, .contract-container li { margin-bottom: 0.75rem; }
+        .contract-container ul { list-style-position: inside; padding-left: 1rem; }
+        .contract-container strong { font-weight: 600; }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3JZ8f3UcsCnwcwnFC5TupNww5RQjgVUU&libraries=places&callback=initMapAutocomplete&loading=async" defer></script>
+</head>
+
+<body class="font-inter bg-brand-bg-light text-brand-text-dark antialiased">
+
+    <header id="main-header" class="page-header">
+        <nav class="container">
+            <div class="header-logo-container">
+                <a href="index.html#hero" class="header-logo internal-link"> Keys by Caleb </a>
+            </div>
+
+            <div id="desktop-nav-elements" class="header-nav-container">
+                <div class="main-nav-links desktop-only-nav">
+                    <a href="index.html#about" class="nav-link internal-link">About</a>
+                    <a href="index.html#services" class="nav-link internal-link">Services</a>
+                    <a href="index.html#gallery" class="nav-link internal-link">Gallery</a>
+                    <a href="testimonials-new.html" class="nav-link">Testimonials</a>
+                    <a href="blog.html" class="nav-link">Journal</a>
+                    <a href="index.html#contact" class="nav-link internal-link">Contact</a>
+                </div>
+                <div class="header-separator desktop-only-nav"></div>
+                <div class="header-secondary-links desktop-only-nav">
+                    <div class="nav-item-dropdown more-nav-item">
+                        <button type="button" class="nav-link more-dropdown-trigger" aria-haspopup="true" aria-expanded="false" aria-controls="more-dropdown-menu-desktop">
+                            More
+                            <i class="fas fa-chevron-down icon-xs ml-1 chevron-level-1" aria-hidden="true"></i>
+                        </button>
+                        <div id="more-dropdown-menu-desktop" class="nav-dropdown more-dropdown-menu" role="menu">
+                            <div class="main-dropdown-item submenu-trigger" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="booking-submenu-l3-desktop">
+                                <a href="index.html#services" class="dropdown-item-link internal-link active">Booking</a> 
+                                <button class="submenu-expand-button" aria-label="Expand Booking submenu">
+                                    <i class="fas fa-chevron-right icon-xs submenu-chevron" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <div id="booking-submenu-l3-desktop" class="nav-submenu l3-submenu" role="menu">
+                                <a href="booking-jom-new.html" class="dropdown-link active" role="menuitem">Just One Moment</a> 
+                                <a href="booking-tfe-new.html" class="dropdown-link" role="menuitem">The Full Experience</a>
+                                <a href="booking-hourly.html" class="dropdown-link" role="menuitem">By The Hour</a>
+                            </div>
+
+                            <div class="main-dropdown-item submenu-trigger" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="follow-submenu-l3-desktop">
+                                <a href="index.html#main-footer" class="dropdown-item-link internal-link">Follow Us</a>
+                                <button class="submenu-expand-button" aria-label="Expand Follow Us submenu">
+                                    <i class="fas fa-chevron-right icon-xs submenu-chevron" aria-hidden="true"></i>
+                                </button>
+                            </div>
+                            <div id="follow-submenu-l3-desktop" class="nav-submenu l3-submenu socials-submenu" role="menu">
+                                <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="dropdown-link" role="menuitem"><i class="fab fa-facebook-f fa-fw" aria-hidden="true"></i> Facebook</a>
+                                <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="dropdown-link" role="menuitem"><i class="fab fa-instagram fa-fw" aria-hidden="true"></i> Instagram</a>
+                                <a href="https://tiktok.com/@keys_by_caleb" target="_blank" rel="noopener noreferrer" class="dropdown-link" role="menuitem"><i class="fab fa-tiktok fa-fw" aria-hidden="true"></i> TikTok</a>
+                                <a href="youtube.com/@KeysByCaleb" target="_blank" rel="noopener noreferrer" class="dropdown-link" role="menuitem"><i class="fab fa-youtube fa-fw" aria-hidden="true"></i> YouTube</a>
+                                <a href="mailto:keysbycaleb@gmail.com" class="dropdown-link" role="menuitem"><i class="fas fa-envelope fa-fw" aria-hidden="true"></i> Email Us</a>
+                            </div>
+
+                            <div class="main-dropdown-item submenu-trigger" role="menuitem" aria-haspopup="true" aria-expanded="false" aria-controls="partners-submenu-l3-desktop">
+                                 <a href="vendor-hub.html" class="dropdown-item-link">Partners</a>
+                                 <button class="submenu-expand-button" aria-label="Expand Partners submenu">
+                                     <i class="fas fa-chevron-right icon-xs submenu-chevron" aria-hidden="true"></i>
+                                 </button>
+                            </div>
+                            <div id="partners-submenu-l3-desktop" class="nav-submenu l3-submenu partners-submenu" role="menu">
+                                 <a href="vendor-events.html" class="dropdown-link" role="menuitem">Event Venues</a>
+                                 <a href="vendor-lessons.html" class="dropdown-link" role="menuitem">Lessons</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="mobile-menu-toggle-simplified" class="mobile-menu-toggle-button" aria-label="Toggle Menu" aria-expanded="false" aria-controls="mobile-menu-panel-simplified">
+                <i class="fas fa-bars" aria-hidden="true"></i>
+            </button>
+        </nav>
+        <div id="mobile-menu-panel-simplified" class="mobile-menu-panel-simplified" aria-hidden="true">
+            <ul class="mobile-nav-list-simplified">
+                <li><span class="mobile-nav-label-simplified">Contact Us</span></li>
+                <li class="mobile-nav-icon-row social-icons-row">
+                    <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="mobile-nav-icon-link social-icon-link" title="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="mobile-nav-icon-link social-icon-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://tiktok.com/@keys_by_caleb" target="_blank" rel="noopener noreferrer" class="mobile-nav-icon-link social-icon-link" title="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="youtube.com/@KeysByCaleb" target="_blank" rel="noopener noreferrer" class="mobile-nav-icon-link social-icon-link" title="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="mailto:keysbycaleb@gmail.com" class="mobile-nav-icon-link social-icon-link" title="Email Us">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+19513940256" class="mobile-nav-icon-link social-icon-link" title="Call Us">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </li>
+
+                <li><hr class="mobile-menu-divider-simplified"></li>
+                <li><span class="mobile-nav-label-simplified">Booking</span></li>
+                <li class="mobile-nav-list-item-container">
+                    <a href="booking-jom-new.html" class="mobile-nav-list-item" title="Just One Moment">
+                        <i class="fas fa-stopwatch list-item-icon"></i><span class="list-item-text">Just One Moment</span>
+                    </a>
+                    <a href="booking-tfe-new.html" class="mobile-nav-list-item" title="The Full Experience">
+                        <i class="fas fa-star list-item-icon"></i><span class="list-item-text">The Full Experience</span>
+                    </a>
+                    <a href="booking-hourly.html" class="mobile-nav-list-item" title="By The Hour">
+                        <i class="fas fa-clock list-item-icon"></i><span class="list-item-text">By The Hour</span>
+                    </a>
+                </li>
+                
+                <li><hr class="mobile-menu-divider-simplified"></li>
+                <li><span class="mobile-nav-label-simplified">SEE ALSO</span></li>
+                <li class="mobile-nav-list-item-container">
+                    <a href="testimonials-new.html" class="mobile-nav-list-item" title="Full Reviews Page">
+                        <i class="fas fa-comment-alt list-item-icon"></i><span class="list-item-text">Full Reviews Page</span>
+                    </a>
+                    <a href="vendor-hub.html" class="mobile-nav-list-item" title="Partners">
+                        <i class="fas fa-handshake list-item-icon"></i><span class="list-item-text">Partners</span>
+                    </a>
+                    <a href="blog.html" class="mobile-nav-list-item" title="Blog Journal">
+                        <i class="fas fa-newspaper list-item-icon"></i><span class="list-item-text">Blog Journal</span>
+                    </a>
+                </li>
+
+                <li><hr class="mobile-menu-divider-simplified"></li>
+                <li><span class="mobile-nav-label-simplified">Homepage Navigation</span></li>
+                <li class="mobile-nav-list-item-container">
+                     <a href="index.html#hero" class="mobile-nav-list-item internal-link-simplified" title="Home">
+                        <i class="fas fa-home list-item-icon"></i><span class="list-item-text">Home</span>
+                    </a>
+                    <a href="index.html#experience" class="mobile-nav-list-item internal-link-simplified" title="Experience">
+                        <i class="fas fa-concierge-bell list-item-icon"></i><span class="list-item-text">Experience</span>
+                    </a>
+                    <a href="index.html#testimonials" class="mobile-nav-list-item internal-link-simplified" title="Testimonials">
+                        <i class="fas fa-star list-item-icon"></i><span class="list-item-text">Testimonials</span>
+                    </a>
+                    <a href="index.html#about" class="mobile-nav-list-item internal-link-simplified" title="About">
+                        <i class="fas fa-user list-item-icon"></i><span class="list-item-text">About</span>
+                    </a>
+                    <a href="index.html#gallery" class="mobile-nav-list-item internal-link-simplified" title="Gallery">
+                        <i class="fas fa-images list-item-icon"></i><span class="list-item-text">Gallery</span>
+                    </a>
+                    <a href="index.html#services" class="mobile-nav-list-item internal-link-simplified" title="Packages">
+                        <i class="fas fa-box-open list-item-icon"></i><span class="list-item-text">Packages</span>
+                    </a>
+                    <a href="index.html#contact" class="mobile-nav-list-item internal-link-simplified" title="Contact">
+                        <i class="fas fa-id-badge list-item-icon"></i><span class="list-item-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="tsparticles-header" class="tsparticles-layer"></div>
+    </header>
+
+    <main class="pt-[calc(var(--header-height)+2rem)] md:pt-[calc(var(--header-height)+3rem)] pb-16 md:pb-24">
+        <section id="booking-intro" class="mb-12 md:mb-16 text-center animate-fade-in">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-playfair font-bold text-brand-primary mb-3 leading-tight">Book Your Just One Moment</h1>
+                <p class="text-lg md:text-xl font-inter text-brand-text-dark opacity-80 mb-6 max-w-2xl mx-auto">Perfect for your wedding ceremony or a single highlight moment (up to 1 hour of continuous music). Package Price: $495.</p>
+                <p class="text-sm font-inter text-brand-text-dark opacity-70 mb-10 max-w-2xl mx-auto">Follow the steps below to submit your booking request. Caleb will be in touch to confirm details and finalize your invoice.</p>
+            </div>
+        </section>
+
+        <section id="booking-form-section">
+             <div class="container mx-auto px-6 flex justify-center">
+                <div class="booking-card w-full max-w-3xl">
+                     <form id="booking-form" name="booking-jom-request" method="POST" class="relative overflow-hidden" novalidate>
+                        <input type="hidden" name="form-name" value="booking-jom-request">
+                        
+                        <div class="step-indicator-container mb-10 md:mb-12" role="tablist" aria-label="Booking Steps">
+                           <div class="step-indicator active" data-step="1" role="tab" aria-selected="true" aria-controls="step-panel-1" id="step-tab-1"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-calendar-check"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Event & Time</span></div><div class="step-connector"></div>
+                           <div class="step-indicator" data-step="2" role="tab" aria-selected="false" aria-controls="step-panel-2" id="step-tab-2"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-map-marked-alt"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Venue & Guests</span></div><div class="step-connector"></div>
+                           <div class="step-indicator" data-step="3" role="tab" aria-selected="false" aria-controls="step-panel-3" id="step-tab-3"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-music"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Style & Music</span></div><div class="step-connector"></div>
+                           <div class="step-indicator" data-step="4" role="tab" aria-selected="false" aria-controls="step-panel-4" id="step-tab-4"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-user-circle"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Your Details</span></div><div class="step-connector"></div>
+                           <div class="step-indicator" data-step="5" role="tab" aria-selected="false" aria-controls="step-panel-5" id="step-tab-5"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-magic"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Enhancements</span></div><div class="step-connector"></div>
+                           <div class="step-indicator" data-step="6" role="tab" aria-selected="false" aria-controls="step-panel-6" id="step-tab-6"><span class="indicator-circle"><span class="indicator-icon"><i class="fas fa-file-alt"></i></span><span class="indicator-check"><i class="fas fa-check"></i></span></span><span class="indicator-label">Review & Submit</span></div>
+                       </div>
+
+                       <div class="steps-container">
+                            <div class="booking-step active" data-step="1" role="tabpanel" id="step-panel-1" aria-labelledby="step-tab-1">
+                                <h3 class="step-title">Your Special Moment</h3>
+                                <p class="step-description mb-6">Tell us about the date, time, and specific wedding moment you have in mind.</p>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5">
+                                    <div class="input-group"><label for="event_date" class="form-label">Wedding Date <span class="required-star">*</span></label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-calendar-day"></i></span><input type="date" id="event_date" name="event_date" required class="form-input with-icon" aria-required="true" aria-describedby="event_date-error"></div><div class="error-message" id="event_date-error" data-for="event_date"></div></div>
+                                    <div class="input-group"><label for="event_time" class="form-label">Known Start Time (Optional)</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-clock"></i></span><input type="time" id="event_time" name="event_time" class="form-input with-icon" aria-describedby="event_time-error"></div><div class="error-message" id="event_time-error" data-for="event_time"></div></div>
+                                    <div class="input-group md:col-span-2"><label for="wedding_moment" class="form-label">Which moment are you hiring for? <span class="required-star">*</span></label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-ring"></i></span><select id="wedding_moment" name="wedding_moment" required class="form-select with-icon" aria-required="true" aria-describedby="wedding_moment-error"><option value="" disabled selected>Select your moment...</option><option value="Prelude (guest arrival)">Prelude (guest arrival)</option><option value="Processional (bridal party & bride)">Processional (bridal party & bride)</option><option value="Cocktail Hour">Cocktail Hour</option><option value="Dinner Hour">Dinner Hour</option><option value="First Dances">First Dances</option><option value="Other">Other</option></select></div><div class="error-message" id="wedding_moment-error" data-for="wedding_moment"></div></div>
+                                    <div class="input-group md:col-span-2 hidden" id="other_moment_wrapper"><label for="other_moment_details" class="form-label">Please describe the other moment</label><div class="input-wrapper"><textarea id="other_moment_details" name="other_moment_details" rows="2" class="form-textarea" placeholder="E.g., Music during cake cutting, a special serenade, etc."></textarea></div><div class="error-message" data-for="other_moment_details"></div></div>
+                                    <input type="hidden" id="estimated_duration" name="estimated_duration" value="1">
+                                    <input type="hidden" name="event_type_selection" value="Wedding Moment">
+                                </div>
+                            </div>
+
+                            <div class="booking-step" data-step="2" role="tabpanel" id="step-panel-2" aria-labelledby="step-tab-2">
+                                <h3 class="step-title">Location & Atmosphere</h3>
+                                <p class="step-description mb-6">Where will this moment take place, and how many guests are expected?</p>
+                                <div class="grid grid-cols-1 gap-y-5">
+                                    <div class="input-group"><label for="venue_name" class="form-label">Venue Name (if applicable)</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-building"></i></span><input type="text" id="venue_name" name="venue_name" class="form-input with-icon" placeholder="E.g., The Mission Inn Chapel"></div><div class="error-message" data-for="venue_name"></div></div>
+                                    <div class="input-group"><label for="venue_address" class="form-label">Venue Address or City <span class="required-star">*</span></label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-map-pin"></i></span><input type="text" id="venue_address" name="venue_address" required class="form-input with-icon" placeholder="Street Address, City, State" aria-required="true" aria-describedby="venue_address-error"></div><div class="error-message" id="venue_address-error" data-for="venue_address"></div></div>
+                                    <div class="input-group"><label for="estimated_guest_count" class="form-label">Estimated Guest Count</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-users"></i></span><input type="number" id="estimated_guest_count" name="estimated_guest_count" class="form-input with-icon" placeholder="e.g., 50" min="1"></div><div class="error-message" data-for="estimated_guest_count"></div></div>
+                                </div>
+                            </div>
+
+                            <div class="booking-step" data-step="3" role="tabpanel" id="step-panel-3" aria-labelledby="step-tab-3">
+                                <h3 class="step-title">Musical Ambiance</h3>
+                                <p class="step-description mb-6">Help Caleb understand your musical preferences for this moment.</p>
+                                <div class="grid grid-cols-1 gap-y-5">
+                                    <div class="input-group"><label for="music_style_vibe" class="form-label">Desired Music Style/Vibe</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-sliders-h"></i></span><select id="music_style_vibe" name="music_style_vibe" class="form-select with-icon"><option value="" selected>Choose a style (optional)...</option><option value="Elegant/Classical">Elegant / Classical</option><option value="Romantic/Ballads">Romantic / Ballads</option><option value="Jazzy/Sophisticated">Jazzy / Sophisticated</option><option value="Upbeat Pop/Modern">Upbeat Pop / Modern Hits</option><option value="Background/Ambiance">Soft Background / Ambiance</option><option value="Mix of Styles">A Mix of Styles</option><option value="Primarily Specific Requests">Primarily Specific Requests (listed below)</option></select></div><div class="error-message" data-for="music_style_vibe"></div></div>
+                                    <div class="input-group"><label for="piano_availability" class="form-label">Piano Availability at Venue</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-piano"></i></span><select id="piano_availability" name="piano_availability" class="form-select with-icon"><option value="Unknown" selected>I'm not sure</option><option value="Yes - Acoustic Grand">Yes - Acoustic Grand Piano</option><option value="Yes - Acoustic Upright">Yes - Acoustic Upright Piano</option><option value="Yes - Digital Keyboard">Yes - Digital Keyboard is there</option><option value="No">No - Caleb needs to bring keyboard</option></select></div><div class="error-message" data-for="piano_availability"></div></div>
+                                    <div class="input-group"><label for="song_requests" class="form-label">Specific Song Requests (up to 3-5 key songs)</label><div class="input-wrapper"><textarea id="song_requests" name="song_requests" rows="3" class="form-textarea" placeholder="E.g., Processional: Clair de Lune, Recessional: Marry You - Bruno Mars..."></textarea></div><div class="error-message" data-for="song_requests"></div></div>
+                                </div>
+                            </div>
+
+                            <div class="booking-step" data-step="4" role="tabpanel" id="step-panel-4" aria-labelledby="step-tab-4">
+                                <h3 class="step-title">Your Contact Details</h3>
+                                <p class="step-description mb-6">How can Caleb get in touch to confirm and discuss further?</p>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-5">
+                                    <div class="input-group"><label for="name" class="form-label">Full Name <span class="required-star">*</span></label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-user"></i></span><input type="text" id="name" name="name" required class="form-input with-icon" placeholder="Your Full Name" autocomplete="name" aria-required="true" aria-describedby="name-error"></div><div class="error-message" id="name-error" data-for="name"></div></div>
+                                    <div class="input-group"><label for="email" class="form-label">Email Address <span class="required-star">*</span></label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-envelope"></i></span><input type="email" id="email" name="email" required class="form-input with-icon" placeholder="you@example.com" autocomplete="email" inputmode="email" aria-required="true" aria-describedby="email-error"></div><div class="error-message" id="email-error" data-for="email"></div></div>
+                                    <div class="input-group"><label for="phone" class="form-label">Phone Number</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-phone"></i></span><input type="tel" id="phone" name="phone" class="form-input with-icon" placeholder="(XXX) XXX-XXXX" autocomplete="tel" inputmode="tel" aria-describedby="phone-error"></div><div class="error-message" id="phone-error" data-for="phone"></div></div>
+                                    <div class="input-group"><label for="referral" class="form-label">How did you hear about us?</label><div class="input-wrapper"><span class="input-icon"><i class="fas fa-bullhorn"></i></span><select id="referral" name="referral" class="form-select with-icon"><option value="" selected>Select an option (Optional)</option><option value="Google Search">Google Search</option><option value="Social Media">Social Media</option><option value="Referral (Friend/Family)">Referral (Friend/Family)</option><option value="Referral (Venue/Planner)">Referral (Venue/Planner)</option><option value="Wedding Wire / The Knot">Wedding Wire / The Knot</option><option value="Attended Event">Attended Event</option><option value="Other">Other</option></select></div><div class="error-message" data-for="referral"></div></div>
+                                    <div class="input-group md:col-span-2">
+                                        <label for="message" class="form-label">Are there any specific transitions or combinations you'd like to talk through for this moment?</label>
+                                        <div class="input-wrapper">
+                                            <textarea id="message" name="message" rows="3" class="form-textarea" placeholder="E.g., How would the music flow from the prelude into the processional?"></textarea>
+                                        </div>
+                                        <div class="error-message" data-for="message"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="booking-step" data-step="5" role="tabpanel" id="step-panel-5" aria-labelledby="step-tab-5">
+                                <h3 class="step-title">Optional Enhancements</h3>
+                                <p class="step-description mb-6">Make your event even more memorable with these unique add-ons. Select any you're interested in.</p>
+                                
+                                <div class="addons-info-link-container text-center">
+                                    <button type="button" id="open-addons-modal-booking" class="addons-info-link">
+                                        <i class="fas fa-question-circle"></i>
+                                        What are these add-ons?
+                                    </button>
+                                </div>
+                        
+                                <div class="addons-checkbox-group">
+                                    <label class="addon-checkbox-label">
+                                        <input type="checkbox" name="addons" value="Custom Pressed Vinyl" class="form-checkbox">
+                                        <span class="addon-checkbox-content">
+                                            <span class="addon-checkbox-name">Custom Pressed Vinyl Record</span>
+                                            <span class="addon-checkbox-price">$275+</span>
+                                        </span>
+                                    </label>
+                                    <label class="addon-checkbox-label">
+                                        <input type="checkbox" name="addons" value="Rehearsal Dinner Performance" class="form-checkbox">
+                                        <span class="addon-checkbox-content">
+                                            <span class="addon-checkbox-name">Rehearsal Dinner Performance</span>
+                                            <span class="addon-checkbox-price">$150+</span>
+                                        </span>
+                                    </label>
+                                    <label class="addon-checkbox-label">
+                                        <input type="checkbox" name="addons" value="Spoken Dedication Over Music" class="form-checkbox">
+                                        <span class="addon-checkbox-content">
+                                            <span class="addon-checkbox-name">Spoken Dedication Over Music</span>
+                                            <span class="addon-checkbox-price">$150+</span>
+                                        </span>
+                                    </label>
+                                    <label class="addon-checkbox-label">
+                                        <input type="checkbox" name="addons" value="Custom Spotify Playlist & Keepsake" class="form-checkbox">
+                                        <span class="addon-checkbox-content">
+                                            <span class="addon-checkbox-name">Spotify Playlist & Keepsake</span>
+                                            <span class="addon-checkbox-price">$125+</span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="booking-step" data-step="6" role="tabpanel" id="step-panel-6" aria-labelledby="step-tab-6">
+                                <h3 class="step-title">Review & Submit Your Request</h3>
+                                <p class="step-description mb-8">Please check your details carefully and review the service agreement below before submitting.</p>
+                                <div class="booking-summary">
+                                    <div class="summary-section">
+                                        <div class="summary-header">
+                                            <h4 class="summary-title"><i class="fas fa-calendar-check fa-fw"></i>Event & Time</h4>
+                                            <button type="button" class="summary-edit-link" data-target-step="1">Edit</button>
+                                        </div>
+                                        <div class="summary-content">
+                                            <div class="summary-item"><strong class="summary-label">Date:</strong><span id="summary-event_date" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Time:</strong><span id="summary-event_time" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Wedding Moment:</strong><span id="summary-wedding_moment" class="summary-value">-</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-section">
+                                        <div class="summary-header">
+                                            <h4 class="summary-title"><i class="fas fa-map-marked-alt fa-fw"></i>Venue & Guests</h4>
+                                            <button type="button" class="summary-edit-link" data-target-step="2">Edit</button>
+                                        </div>
+                                        <div class="summary-content">
+                                            <div class="summary-item"><strong class="summary-label">Venue:</strong><span id="summary-venue_name" class="summary-value">Not specified</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Address:</strong><span id="summary-venue_address" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Guest Count:</strong><span id="summary-estimated_guest_count" class="summary-value">Not specified</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-section">
+                                        <div class="summary-header">
+                                            <h4 class="summary-title"><i class="fas fa-music fa-fw"></i>Style & Music</h4>
+                                            <button type="button" class="summary-edit-link" data-target-step="3">Edit</button>
+                                        </div>
+                                        <div class="summary-content">
+                                            <div class="summary-item"><strong class="summary-label">Music Vibe:</strong><span id="summary-music_style_vibe" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Piano:</strong><span id="summary-piano_availability" class="summary-value">-</span></div>
+                                            <div class="summary-item full-width"><strong class="summary-label">Song Requests:</strong><span id="summary-song_requests" class="summary-value">-</span></div>
+                                        </div>
+                                    </div>
+                                    <div class="summary-section">
+                                        <div class="summary-header">
+                                            <h4 class="summary-title"><i class="fas fa-user-circle fa-fw"></i>Your Details</h4>
+                                            <button type="button" class="summary-edit-link" data-target-step="4">Edit</button>
+                                        </div>
+                                        <div class="summary-content">
+                                            <div class="summary-item"><strong class="summary-label">Name:</strong><span id="summary-name" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Email:</strong><span id="summary-email" class="summary-value">-</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Phone:</strong><span id="summary-phone" class="summary-value">Not provided</span></div>
+                                            <div class="summary-item"><strong class="summary-label">Referral:</strong><span id="summary-referral" class="summary-value">Not specified</span></div>
+                                            <div class="summary-item full-width"><strong class="summary-label">Transitions/Combinations:</strong><span id="summary-message" class="summary-value">-</span></div>
+                                        </div>
+                                    </div>
+                                    <div id="summary-addons-section" class="summary-section hidden">
+                                        <div class="summary-header">
+                                            <h4 class="summary-title"><i class="fas fa-magic fa-fw"></i>Selected Enhancements</h4>
+                                            <button type="button" class="summary-edit-link" data-target-step="5">Edit</button>
+                                        </div>
+                                        <div class="summary-content">
+                                            <div class="summary-item full-width"><span id="summary-addons-list" class="summary-value">None Selected</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contract-container">
+                                    <h3>Service Agreement</h3>
+                                    <p>This agreement is between <strong>Caleb (the "Artist," contactable at keysbycaleb@gmail.com)</strong> and the individual completing this form (the "Client").</p>
+                                    
+                                    <h4>Article 1: Services</h4>
+                                    <p><strong>1.1 Event Details:</strong> The Artist agrees to perform for the event detailed in the booking form, upon confirmation of availability and final agreement with the Client.</p>
+                                    <p><strong>1.2 Scope of Work:</strong> The Artist will provide up to one (1) hour of continuous live piano music as outlined in the "Just One Moment" package. The performance will align with the musical styles and specific song requests discussed and agreed upon with the Client. The Artist's role is to provide musical entertainment only.</p>
+                                
+                                    <h4>Article 2: Compensation</h4>
+                                    <p><strong>2.1 Package Fee:</strong> The fee for the "Just One Moment" package is as stated on the website at the time of booking. This fee covers up to one hour of performance time.</p>
+                                    <p><strong>2.2 Payment Schedule:</strong> A non-refundable retainer of 50% of the total fee is required to secure the event date. The remaining 50% is due no later than seven (7) days prior to the event.</p>
+                                
+                                    <h4>Article 3: Logistics</h4>
+                                    <p><strong>3.1 Date & Time Confirmation:</strong> The event date and performance times are secured only upon receipt of the retainer and a signed agreement (to be sent after this initial request).</p>
+                                    <p><strong>3.2 Cancellations:</strong> If the Client cancels the event, the retainer is non-refundable. If the event is canceled within 30 days of the performance date, the full fee is due.</p>
+                                    <p><strong>3.3 Postponement:</strong> If the event is postponed, the Client may apply the retainer to a new date within twelve (12) months of the original date, subject to the Artist's availability.</p>
+                                    <p><strong>3.4 Technical Requirements:</strong> The Client or venue must provide a safe, level performance space (approx. 5'x6') and access to one standard electrical outlet. If a piano is not available on-site, the Client agrees to the use of the Artist's professional digital piano. The Client/venue shall provide **one professional powered speaker with a standard XLR or 1/4-inch input.**</p>
+                                
+                                    <h4>Article 4: Client Responsibilities</h4>
+                                    <p><strong>4.1 Safe Working Environment:</strong> The Client must ensure a safe, non-threatening environment for the Artist. This includes protection from inclement weather for outdoor events.</p>
+                                    <p><strong>4.2 Communication:</strong> The Client agrees to provide timely information regarding event timelines, song selections, and logistical details.</p>
+                                
+                                    <h4>Article 5: Artist Responsibilities</h4>
+                                    <p><strong>5.1 Professionalism:</strong> The Artist will perform in a professional manner, with appropriate attire, and will arrive sufficiently in advance for setup and sound check.</p>
+                                    <p><strong>5.2 Equipment:</strong> The Artist will provide all necessary musical equipment, excluding items specified in section 3.4.</p>
+                                
+                                    <h4>Article 6: General Provisions</h4>
+                                    <p><strong>6.1 Governing Law:</strong> This Agreement shall be governed by the laws of the State of California.</p>
+                                    <p><strong>6.2 Limit of Liability:</strong> In the unlikely event the Artist is unable to perform due to illness or unforeseen circumstances, liability is limited to a full refund of all payments received.</p>
+                                    <p><strong>6.3 Entire Agreement:</strong> This document, along with the finalized booking confirmation, constitutes the entire agreement between the Client and the Artist.</p>
+                                </div>
+
+                                <div class="input-group mt-6">
+                                    <label class="checkbox-label-inline items-start">
+                                        <input type="checkbox" id="agree_terms" name="agree_terms" class="form-checkbox" required>
+                                        <span class="ml-2">I have read and agree to the terms of the Service Agreement. <span class="required-star">*</span></span>
+                                    </label>
+                                    <div class="error-message" id="agree_terms-error" data-for="agree_terms"></div>
+                                </div>
+                                <div id="form-message" class="form-message-area error"></div>
+                            </div>
+                       </div> 
+                       
+                       <div class="form-navigation mt-8 md:mt-10 pt-6 border-t border-brand-border-light flex justify-between items-center">
+                            <button type="button" id="prev-button" class="btn btn-secondary" style="visibility: hidden;" aria-label="Previous Step"><i class="fas fa-arrow-left mr-2"></i> Previous</button>
+                            <button type="button" id="next-button" class="btn btn-primary" aria-label="Next Step">Next <i class="fas fa-arrow-right ml-2"></i></button>
+                            <button type="button" id="submit-request-button" class="btn btn-success hidden" aria-label="Submit Booking Request">Submit Request <i class="fas fa-paper-plane ml-2"></i></button>
+                        </div>
+                    </form>
+
+                    <div id="booking-loader-overlay" class="loader-overlay hidden" aria-hidden="true">
+                        <div class="loader-spinner" role="progressbar" aria-label="Loading..."></div>
+                        <p id="loader-text">Processing...</p>
+                    </div>
+
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <footer id="main-footer" class="scroll-section">
+        <div id="tsparticles-footer" class="tsparticles-layer"></div>
+        <div class="container">
+            <div class="footer-main-content-wrapper">
+                <div class="footer-brand-col">
+                    <a href="index.html#hero" class="footer-logo internal-link">Keys by Caleb</a>
+                    <p class="footer-tagline-compact">Elegant Live Piano Music</p>
+                    <p class="footer-location-compact">Serving Riverside, CA & Surrounding Areas</p>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading-compact">Explore</h4>
+                    <ul class="footer-nav-list-compact">
+                        <li><a href="index.html#about" class="footer-nav-link internal-link">About Caleb</a></li>
+                        <li><a href="index.html#services" class="footer-nav-link internal-link">Services</a></li>
+                        <li><a href="index.html#gallery" class="footer-nav-link internal-link">Gallery</a></li>
+                        <li><a href="testimonials-new.html" class="footer-nav-link">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading-compact">More Info</h4>
+                    <ul class="footer-nav-list-compact">
+                        <li><a href="testimonials-new.html" class="footer-nav-link">Full Reviews</a></li>
+                         <li><a href="blog.html" class="footer-nav-link">Journal</a></li>
+                        <li><a href="vendor-hub.html" class="footer-nav-link">Partners</a></li>
+                        <li><a href="index.html#contact" class="footer-nav-link internal-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4 class="footer-heading-compact">Booking</h4>
+                    <ul class="footer-nav-list-compact">
+                        <li><a href="booking-jom-new.html" class="footer-nav-link">Just One Moment</a></li>
+                        <li><a href="booking-hourly.html" class="footer-nav-link">By The Hour</a></li>
+                        <li><a href="booking-tfe-new.html" class="footer-nav-link">The Full Experience</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-col">
+                    <div class="footer-social-icons-compact">
+                        <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" title="Facebook"><i class="fab fa-facebook-f"></i><span class="sr-only">Facebook</span></a>
+                        <a href="https://www.instagram.com/keysbycaleb/" target="_blank" rel="noopener noreferrer" class="footer-social-icon" title="Instagram"><i class="fab fa-instagram"></i><span class="sr-only">Instagram</span></a>
+                        <a href="https://tiktok.com/@keys_by_caleb" target="_blank" rel="noopener noreferrer" class="footer-social-icon" title="TikTok"><i class="fab fa-tiktok"></i><span class="sr-only">TikTok</span></a>
+                        <a href="youtube.com/@KeysByCaleb" target="_blank" rel="noopener noreferrer" class="footer-social-icon" title="YouTube"><i class="fab fa-youtube"></i><span class="sr-only">YouTube</span></a>
+                        <a href="mailto:keysbycaleb@gmail.com" class="footer-social-icon" title="Email"><i class="fas fa-envelope"></i><span class="sr-only">Email</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright-line">
+                <p>© <span id="current-year">2025</span> Keys by Caleb. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="addons-modal-overlay-booking" class="modal-overlay hidden">
+        <div id="addons-modal-box" class="modal-box">
+            <button id="close-addons-modal-booking" class="modal-close-btn" aria-label="Close dialog">×</button>
+            <h2 class="modal-title">Optional Add-Ons Explained</h2>
+            <div class="modal-content">
+                <div class="addon-explanation">
+                    <h4><i class="fas fa-record-vinyl"></i> Custom Pressed Vinyl Record</h4>
+                    <p>Immortalize the music from your special day on a beautiful, custom-pressed vinyl record. A timeless keepsake to cherish forever.</p>
+                    <ul>
+                        <li><strong>Single Track:</strong> $275</li>
+                        <li><strong>Full Wedding Set:</strong> $495 - $650</li>
+                        <li>Includes custom artwork and optional color/marble vinyl.</li>
+                    </ul>
+                </div>
+                <div class="addon-explanation">
+                    <h4><i class="fas fa-utensils"></i> Rehearsal Dinner Performance</h4>
+                    <p>Set a relaxed and sophisticated atmosphere for your pre-wedding celebration. A perfect way to welcome your guests.</p>
+                    <ul>
+                        <li><strong>Package Upgrade:</strong> $150 - $200</li>
+                        <li><strong>Standalone Service:</strong> $275/hour (2-hour minimum)</li>
+                    </ul>
+                </div>
+                <div class="addon-explanation">
+                    <h4><i class="fas fa-microphone-alt"></i> Spoken Dedication Over Music</h4>
+                    <p>A truly personal touch. Record a heartfelt message, tribute, or vow, which I will set to a beautiful, custom-composed piano backing.</p>
+                    <ul>
+                        <li><strong>Per Message:</strong> $150+</li>
+                        <li>Optionally includes a simple, AI-generated video backdrop for projection.</li>
+                    </ul>
+                </div>
+                <div class="addon-explanation">
+                    <h4><i class="fab fa-spotify"></i> Custom Spotify Playlist & Keepsake</h4>
+                    <p>Take the sounds of your wedding home with a curated Spotify playlist and a chic physical display piece.</p>
+                    <ul>
+                        <li><strong>Starting Price:</strong> $125+</li>
+                        <li>Includes a glass/acrylic display with an etched Spotify code, set on a handsome wooden base.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <button id="scroll-to-top" class="scroll-to-top-button hidden" aria-label="Scroll back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.12.0/tsparticles.slim.bundle.min.js"></script>
+    <script src="js/pinterest-style-adapted.js"></script>
+    <script src="js/booking-logic-new.js"></script>
+
+</body>
+</html>
